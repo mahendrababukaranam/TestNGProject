@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-18T15:38:36 IST" name="Default suite" finished-at="2024-10-18T15:38:40 IST" duration-ms="3920">
+    <groups>
+    </groups>
+    <test started-at="2024-10-18T15:38:36 IST" name="Default test" finished-at="2024-10-18T15:38:40 IST" duration-ms="3920">
+      <class name="Screenshot.Screenshot">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:Screenshot.Screenshot@2c1b194a]" started-at="2024-10-18T15:38:36 IST" name="launchApp" finished-at="2024-10-18T15:38:40 IST" duration-ms="3759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="scrrenshot()[pri:0, instance:Screenshot.Screenshot@2c1b194a]" started-at="2024-10-18T15:38:40 IST" name="scrrenshot" finished-at="2024-10-18T15:38:40 IST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrrenshot -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Screenshot.Screenshot@2c1b194a]" started-at="2024-10-18T15:38:40 IST" name="afterClass" finished-at="2024-10-18T15:38:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Screenshot.Screenshot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

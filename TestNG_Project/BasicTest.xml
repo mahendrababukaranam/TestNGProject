@@ -1,0 +1,16 @@
+
+
+<suite name="Suite">
+
+  <test thread-count="5" name="BasicTest">
+  
+    <classes>
+    
+      <class name="Test.TestClass2"/>
+      <class name="Test.TestClass1"/>
+      
+    </classes>
+    
+  </test> <!-- BasicTest -->
+  
+</suite> <!-- Suite -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parallel Testing]">
+  <test thread-count="5" name="Firefox Browser(failed)">
+    <parameter name="browser" value="FireFox"/>
+    <classes>
+      <class name="TestNgPackage.ParallelTestClass">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="Browser"/>
+          <include name="title"/>
+        </methods>
+      </class> <!-- TestNgPackage.ParallelTestClass -->
+    </classes>
+  </test> <!-- Firefox Browser(failed) -->
+</suite> <!-- Failed suite [Parallel Testing] -->

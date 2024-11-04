@@ -1,0 +1,29 @@
+
+<suite name="Suite">
+  <test name="Smoke Test">
+  <groups>
+  	<run>
+  		<include name="Smoke"/>
+  		
+  	</run>
+  </groups>
+    <classes>
+      <class name="TestNgPackage.PriorityTestClass1"/>
+      <class name="TestNgPackage.PriorityTestClass2"/>
+    </classes>
+  </test> <!-- GroupTest -->
+  
+  <test name="Sanity Test">
+  <groups>
+  	<run>
+  		<include name="Sanity"/>
+  		
+  	</run>
+  </groups>
+    <classes>
+      <class name="TestNgPackage.PriorityTestClass1"/>
+      <class name="TestNgPackage.PriorityTestClass2"/>
+    </classes>
+  </test> <!-- GroupTest -->
+  
+</suite> <!-- Suite -->

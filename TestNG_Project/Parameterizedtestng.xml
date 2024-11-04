@@ -1,0 +1,16 @@
+
+<suite name="Suite">
+  <test name="ParameterizedTest1">
+  <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="TestNgPackage.ParameterisedClass"/>
+    </classes>
+  </test> <!-- ParameterizedTest -->
+  
+  <test name="ParameterizedTest2">
+  <parameter name="browser" value="FireFox"/>
+    <classes>
+      <class name="TestNgPackage.ParameterisedClass"/>
+    </classes>
+  </test> <!-- ParameterizedTest -->
+</suite> <!-- Suite -->
